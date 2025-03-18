@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Cartão de Visita -  React Native",
+    "slug": "cartao-de-visita-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joycebarbosag.cartaodevisitareactnative"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.joycebarbosag.cartaodevisitareactnative"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5cfc38d2-d349-436b-9bd7-b1a9ec7186d0"
+      }
+    },
+    "owner": "joycebarbosag",
+    "updates": {
+      "url": "https://u.expo.dev/5cfc38d2-d349-436b-9bd7-b1a9ec7186d0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
